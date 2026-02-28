@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mobile Suite" parallel="tests" thread-count="1">
+
+    <test name="iPhone Emulation">
+        <parameter name="browser" value="chromium"/>
+        <parameter name="mobile" value="true"/>
+        <parameter name="device" value="iPhone 12"/>
+
+        <classes>
+            <class name="tests.AddressOfBranches"/>
+        </classes>
+    </test>
+
+</suite>
