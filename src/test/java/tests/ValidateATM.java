@@ -44,3 +44,5 @@ public class ValidateATM {
         locationPageSteps.validateATMsList();
     }
 }
+
+//comment for commit

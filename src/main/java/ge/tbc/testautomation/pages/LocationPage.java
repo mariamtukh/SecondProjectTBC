@@ -25,3 +25,5 @@ public class LocationPage {
         this.listOfATMs = page.locator("div.tbcx-pw-atm-branches-section__list-item-description");
     }
 }
+
+//comment for commit

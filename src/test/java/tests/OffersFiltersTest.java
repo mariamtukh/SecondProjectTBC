@@ -74,3 +74,5 @@ public class OffersFiltersTest {
                 .assertResultsExist();
     }
 }
+
+//comment for commit

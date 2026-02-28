@@ -30,3 +30,5 @@ public class OffersPage {
         return page.getByText(text, new Page.GetByTextOptions().setExact(true)).locator(":visible").first();
     }
 }
+
+//comment for commit

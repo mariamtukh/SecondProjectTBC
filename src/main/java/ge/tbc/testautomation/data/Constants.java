@@ -18,4 +18,5 @@ public class Constants {
     public static final String Title_Not_Match = "UI title does not match API title!";
     public static final String Not_Contain_Label = "UI does not contain expected list label from API: ";
     public static final String Offers_URL = "https://tbcbank.ge/ka/offers/all-offers";
+    public static final String User_Agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1";
 }

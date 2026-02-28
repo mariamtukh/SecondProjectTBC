@@ -59,11 +59,11 @@ public class VisualHomePageTest {
         }
 
         byte[] screenshotBytes = page.screenshot();
-        Path currentPath = Paths.get("screenshots/offers-main.png");
+        Path currentPath = Paths.get("screenshots/offers.png");
         Files.createDirectories(currentPath.getParent());
         Files.write(currentPath, screenshotBytes);
 
-        BufferedImage baselineImage = ImageIO.read(Paths.get("screenshots/offers-main.png").toFile());
+        BufferedImage baselineImage = ImageIO.read(Paths.get("screenshots/offers.png").toFile());
         BufferedImage currentImage = ImageIO.read(currentPath.toFile());
 
         ImageComparison comparison = new ImageComparison(baselineImage, currentImage);
@@ -74,3 +74,5 @@ public class VisualHomePageTest {
         }
     }
 }
+
+//comment for commit

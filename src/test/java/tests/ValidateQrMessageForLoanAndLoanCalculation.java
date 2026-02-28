@@ -60,4 +60,6 @@ public class ValidateQrMessageForLoanAndLoanCalculation {
     }
 }
 
+//comment for commit
+
 
